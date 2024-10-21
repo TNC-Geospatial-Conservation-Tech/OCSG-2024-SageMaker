@@ -1,1 +1,51 @@
 .DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Hidden files created by Jupyter Lab
+.jupyterlab-workspaces/
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual Environment/Conda Environment
+env/
+venv/
+.venv/
+*.env
+*.conda
+*.envrc
+*.pkl
+
+# Jupyter Notebook Configurations
+*.jupyter/
+.jupyter/
+.jupyterlab/
+
+# SageMaker Studio Lab Configuration Files (if applicable)
+.sagemaker/
+
+# Output or Data Files
+*.csv
+*.nc
+
+# IPython history
+ipython_log.py
+.history
+.ipynb_history/
+
+# Editor and OS Files
+.DS_Store
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+
+# Ignore backup and lock files
+*.bak
+*.tmp
+*.lock
