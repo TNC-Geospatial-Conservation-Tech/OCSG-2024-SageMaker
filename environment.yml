@@ -26,6 +26,11 @@ dependencies:
   - pystac-client
   - scipy
   - intake
+  - intake-esm
   - beautifulsoup4
   - stackstac
   - fsspec
+  - seaborn
+  - requests
+  - bs4
+  - intake
