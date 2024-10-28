@@ -32,5 +32,3 @@ dependencies:
   - fsspec
   - seaborn
   - requests
-  - bs4
-  - intake
