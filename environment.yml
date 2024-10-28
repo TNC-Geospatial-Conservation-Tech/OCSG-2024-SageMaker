@@ -1,34 +1,36 @@
 name: tnc-ocsg
-
+channels:
+  - conda-forge
+  - defaults
 dependencies:
   - python=3.12
-  - ipykernel
-  - xarray
-  - h5netcdf
-  - netcdf4
-  - zarr
-  - rioxarray
-  - geopandas
-  - shapely
-  - numpy
-  - pandas
-  - matplotlib
-  - holoviews
-  - cartopy
-  - geoviews
-  - datashader
-  - hvplot
-  - scikit-learn
-  - xgboost
-  - s3fs
-  - dask
-  - xvec
-  - pystac-client
-  - scipy
-  - intake
-  - intake-esm
-  - beautifulsoup4
-  - stackstac
-  - fsspec
-  - seaborn
-  - requests
+  - ipykernel=6.29.5
+  - xarray=2024.10.0
+  - h5netcdf=1.4.0
+  - netcdf4=1.7.1
+  - zarr=2.18.3
+  - rioxarray=0.17.0
+  - geopandas=1.0.1
+  - shapely=2.0.6
+  - numpy=2.0.2
+  - pandas=2.2.3
+  - matplotlib=3.9.2
+  - holoviews=1.19.1
+  - cartopy=0.24.0
+  - geoviews=1.13.0
+  - datashader=0.16.3
+  - hvplot=0.11.1
+  - scikit-learn=1.5.2
+  - xgboost=2.1.1
+  - s3fs=2024.10.0
+  - dask=2024.10.0
+  - xvec=0.3.0
+  - pystac-client=0.8.5
+  - scipy=1.14.1
+  - intake=2.0.7
+  - intake-esm=2023.11.10
+  - beautifulsoup4=4.12.3
+  - stackstac=0.5.1
+  - fsspec=2024.10.0
+  - seaborn=0.13.2
+  - requests=2.32.3
