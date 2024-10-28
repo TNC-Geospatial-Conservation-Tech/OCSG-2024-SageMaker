@@ -1,4 +1,4 @@
-name: geospatial-gathering
+name: tnc-ocsg
 
 dependencies:
   - python=3.12
